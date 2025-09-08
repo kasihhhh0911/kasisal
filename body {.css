@@ -1,0 +1,64 @@
+html {
+scroll-behavior : smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: deepskyblue;
+  padding: 20px;
+}
+
+nav {
+
+  background-color: navy;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profile {
+  padding: 30px;
+  width: 50px;
+height: 50px;
+border-radius: 50%
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  border: 5px solid lightblue;
+  border-radius: 10px;
+}
